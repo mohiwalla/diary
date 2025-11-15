@@ -5,7 +5,7 @@ import Logo from "./logo"
 
 export default function Header() {
 	return (
-		<header className="sticky top-0 z-50 w-full border-b border-white/5 backdrop-blur">
+		<header className="fixed top-0 z-50 w-full border-b border-white/5 backdrop-blur">
 			<nav>
 				<div className="container py-4 px-8 mx-auto flex flex-wrap items-center justify-between">
 					<Link to="/">
